@@ -1,8 +1,12 @@
-body{
-    background: rgb(230,171,196);
-    background: radial-gradient(circle, rgba(230,171,196,1) 16%, rgba(100,97,170,1) 100%);
+body {
+    background: rgb(230, 171, 196);
+    background: radial-gradient(circle, rgba(230, 171, 196, 1) 16%, rgba(100, 97, 170, 1) 100%);
     font-family: "Prompt", sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
+
 body::before {
     position: fixed;
     top: 0;
@@ -16,7 +20,7 @@ body::before {
     background-image: url(assets/noise.gif);
 }
 
-.main-title{
+.main-title {
     font-size: 6rem;
     color: #3a2b39;
     text-align: center;
@@ -24,4 +28,20 @@ body::before {
     font-weight: 800;
     letter-spacing: 2px;
     opacity: 0.9;
+}
+
+
+.nav-button{
+    color: #060606;
+    letter-spacing: -1px;
+    margin: 18px;
+    padding: 2px 34px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+}
+
+.nav-button:hover{
+    background: rgba(255, 255, 255, 0.1);
+    color: #060606;
+    border-radius: 30px;
 }

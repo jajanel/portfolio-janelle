@@ -1,8 +1,34 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Janelle's Portfolio
 
-Currently, two official plugins are available:
+Welcome on my portfolio. This website is used to present a few of the projects I did in my free time and for school projects. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## Run Locally
+
+Clone the project or download it on your machine and unzip it.
+
+```bash
+  git clone https://github.com/jajanel/portfolio-janelle
+```
+
+Open the project with your favorite code editor (webstorm forever ❤️)
+
+
+Make sure you have Node.js and install the dependencies
+
+```bash
+  npm install
+```
+
+Run the project and open the local hosted website
+```bash
+  npm run dev
+```
+
+
+## Authors
+
+- [@jajanel](https://github.com/jajanel)
+

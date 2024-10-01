@@ -21,7 +21,7 @@ body::before {
 }
 
 .main-title {
-    font-size: 6rem;
+    font-size: 4rem;
     color: #3a2b39;
     text-align: center;
     margin-top: 4rem;
@@ -44,4 +44,12 @@ body::before {
     background: rgba(255, 255, 255, 0.1);
     color: #060606;
     border-radius: 30px;
+}
+
+.icon-socials{
+    text-decoration: none;
+    color: #060606;
+    opacity: 0.9;
+
+
 }

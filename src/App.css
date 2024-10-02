@@ -19,14 +19,26 @@ body::before {
     pointer-events: none;
     background-image: url(assets/noise.gif);
 }
+.title-container{
+    height: 100vh;
+}
 
 .main-title {
-    font-size: 4rem;
+    font-size: 9.6rem;
     color: #3a2b39;
+    margin: 4rem 0 4rem 0;
     text-align: center;
-    margin-top: 4rem;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: -10px;
+    opacity: 0.9;
+}
+.sub-title{
+    font-size: 2.4rem;
+    color: #3a2b39;
+    margin: 0 0 6rem 0;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
     opacity: 0.9;
 }
 
@@ -52,4 +64,20 @@ body::before {
     opacity: 0.9;
 
 
+}
+
+.custom-card{
+    margin-top: 6rem;
+    border-radius: 30px;
+    background-color: #1d1b3f;
+    height: 100%;
+    opacity:1;
+    z-index: 1002;
+}
+
+.custom-card-bg{
+    height: 100%;
+    width: auto;
+    opacity:1;
+    z-index: 1005;
 }

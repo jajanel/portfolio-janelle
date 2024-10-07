@@ -79,9 +79,7 @@ export default function Card(props) {
                                             <p className="text-secondary mb-1">October 2024</p>
                                             <h2 className="h1 mb-3"><a className="link-dark text-decoration-none"
                                                                        href="#!">Sumo ball battle</a></h2>
-                                            <p className="mb-4">Before the first photo was captured in the 18th century,
-                                                lifelike images of what the eyes can see could only be made by talented
-                                                artists.</p>
+                                            <p className="mb-4">The game is set on a central island, where you must knock down your enemies and avoid being dislodged from the island yourself for as long as possible</p>
                                             <a className="btn btn-primary" href="#!" target="_self">Read More</a>
                                         </div>
                                     </div>
@@ -94,7 +92,7 @@ export default function Card(props) {
                                         <div className="img-wrapper position-relative bsb-hover-push">
                                             <a href="#!">
                                                 <span
-                                                    className="badge rounded-pill text-bg-warning position-absolute top-0 end-0 m-3">Food</span>
+                                                    className="badge rounded-pill text-bg-warning position-absolute top-0 end-0 m-3">Server</span>
                                                 <img className="img-fluid rounded w-100 h-100 object-fit-cover"
                                                      loading="lazy"
                                                      src="https://www.courthousenews.com/wp-content/uploads/2019/11/Fukuipteryx.prima_.jpg"
@@ -104,13 +102,10 @@ export default function Card(props) {
                                     </div>
                                     <div className="col-xs-12 col-md-6">
                                         <div>
-                                            <p className="text-secondary mb-1">Aug 23, 2022</p>
+                                            <p className="text-secondary mb-1">November 2023</p>
                                             <h2 className="h1 mb-3"><a className="link-dark text-decoration-none"
-                                                                       href="#!">Benefits of Having a Heavy Breakfast
-                                                Every Morning</a></h2>
-                                            <p className="mb-4">Running late for work or school? "Let’s skip the
-                                                breakfast!" Well, this might sound like the most ideal idea to save time
-                                                when you are on the run.</p>
+                                                                       href="#!">Simulation of a server infrastructure</a></h2>
+                                            <p className="mb-4">Created from zero a server infrastructure of a fictional university. From the creation of the domain to the users rights</p>
                                             <a className="btn btn-primary" href="#!" target="_self">Read More</a>
                                         </div>
                                     </div>
